@@ -15,6 +15,14 @@ $ pnpm add crpr
 ## 🚀 Usage
 
 ```ts
+import { crpr } from "crpr";
+
+const { promise, resolve, reject } = crpr<string>();
+// or const [promise, resolve, reject] = crpr<string>();
+
+resolve("114514");
+
+promise.then(console.log); // 114514
 ```
 
 ## 📝 License
