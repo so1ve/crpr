@@ -10,8 +10,10 @@ describe("should", () => {
 
       return promise;
     }
+
     await expect(makeSuccess()).resolves.toBe(114_514);
   });
+
   it("reject", async () => {
     function makeError() {
       const [promise, , reject] = crpr<number>();
@@ -19,8 +21,10 @@ describe("should", () => {
 
       return promise;
     }
+
     await expect(() => makeError()).rejects.toThrow("114514");
   });
+
   it("should support both object and array destructuring", async () => {
     function makeSuccess() {
       const [promise, resolve] = crpr<number>();
@@ -34,6 +38,7 @@ describe("should", () => {
 
       return promise;
     }
+
     await expect(makeSuccess()).resolves.toBe(114_514);
     await expect(makeSuccess2()).resolves.toBe(114_514);
   });
