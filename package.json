@@ -5,7 +5,10 @@
   "author": "Ray <i@mk1.io> (@so1ve)",
   "type": "module",
   "description": "Create a promise, but avoid using constructors.",
-  "keywords": ["prromise","utils"],
+  "keywords": [
+    "prromise",
+    "utils"
+  ],
   "homepage": "https://github.com/so1ve/crpr#readme",
   "repository": {
     "type": "git",
