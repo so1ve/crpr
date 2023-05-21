@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/crpr?color=a1b858&label=)](https://www.npmjs.com/package/crpr)
 
-## 💎 Features
+Create a promise, but avoid using constructors.
 
 ## 📦 Installation
 
