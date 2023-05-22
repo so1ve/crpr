@@ -54,7 +54,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "create-isomorphic-destructurable": "^0.2.0"
+    "cride": "^0.3.0"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.3",

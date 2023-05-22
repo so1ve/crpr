@@ -1,4 +1,4 @@
-import { createIsomorphicDestructurable } from "create-isomorphic-destructurable";
+import { cride } from "cride";
 
 export function crpr<T>() {
   let resolve!: (value: T | PromiseLike<T>) => void;
@@ -8,7 +8,7 @@ export function crpr<T>() {
     reject = _reject;
   });
 
-  return createIsomorphicDestructurable(
+  return cride(
     {
       promise,
       resolve,

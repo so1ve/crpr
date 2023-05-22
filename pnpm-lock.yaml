@@ -4,9 +4,9 @@ importers:
 
   .:
     dependencies:
-      create-isomorphic-destructurable:
-        specifier: ^0.2.0
-        version: 0.2.0
+      cride:
+        specifier: ^0.3.0
+        version: 0.3.0
     devDependencies:
       '@antfu/ni':
         specifier: ^0.21.3
@@ -1757,8 +1757,10 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /create-isomorphic-destructurable@0.2.0:
-    resolution: {integrity: sha512-2NqMJpJpIW7Le1ZMlNu2LIcMAeGZXyP33zk+0nY7WHyuSjfWorbFfYtGSng8Qe8lsKarUgmRKxEHDDmcfaonSw==}
+  /cride@0.3.0:
+    resolution: {integrity: sha512-sv7wAtfBfZRKhnsgp5C3RCbiKEBYO+g2lWEF2qDezPxMhlirLvwnB9kdYvvc5crm7x/jE/rA0ABBcsFcWbAyxw==}
+    dependencies:
+      klona: 2.0.6
     dev: false
 
   /cross-spawn@7.0.3:
@@ -3380,6 +3382,11 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
     dev: true
+
+  /klona@2.0.6:
+    resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
+    engines: {node: '>= 8'}
+    dev: false
 
   /levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
