@@ -54,13 +54,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "cride": "^0.3.0"
+    "cride": "^0.3.1"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.3",
     "@babel/types": "^7.21.5",
     "@so1ve/eslint-config": "^0.91.0",
-    "@types/node": "^18.16.13",
+    "@types/node": "^18.2.3",
     "bumpp": "^9.1.0",
     "eslint": "^8.41.0",
     "tsx": "^3.12.7",
